@@ -1,0 +1,48 @@
+html {
+  background: #3A6682 url(/img/bg_noise.png);
+  font-family: sans-serif;
+}
+#main {
+  margin: 0 auto;
+  position: relative;
+}
+#container {
+  margin: 0 auto;
+  text-align: center;
+  width: 608px;
+}
+h1 {
+  color: #FFFFFF;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#container nav {
+  background-color: #100F3D;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+#container nav a {
+  border-right: 1px solid #FFFFFF;
+  color: #FFF;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#container nav a:last-child {
+  border-right: 0;
+}
+#authorize {
+  background-color: #FFFFFF;
+  display: inline-block;
+  margin: 0 90px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+.photo {
+  border: 1px solid #FFFFFF;
+  float: left;
+}
+.photo img {
+  display: block;
+}
