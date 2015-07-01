@@ -11,11 +11,17 @@ $(function () {
 		//invoke photo
 		initialize: function() {
     		console.log('Photo initialized');
+
+            //Function that on every model changing 
+            this.on('change', function(){
+                console.log('el modelo a cambiado');
+            });
   		},
 
   		defaults: {
-			likes: '',
-		}
+            title: 'Comentarios',
+			likes: ''
+		},
 
 	});
 

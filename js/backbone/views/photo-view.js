@@ -1,30 +1,25 @@
 var app = app || {};
 
 $(function () {
-	'use strict';
+    'use strict';
 
-	app.PhotoView = Backbone.View.extend ({
+    app.PhotoView = Backbone.View.extend ({
 
-		tagName: "div",
-  		className: "photo",
+        tagName: "div",
+        className: "photo",
 
-  		initialize: function() {
-    		console.log('PhotoView initialized');
-  		},
+        initialize: function() {
+            console.log('PhotoView initialized');
+        },
 
-  		render: function()
-    		var img;
-        var likes;
-    		img = new Image();
-    		img.src = this.model.get('images').thumbnail.url;
-        likes = this.model.get('likes').count; 
-    		this.$el.html(img);
-        console.log(likes);
+        render: function() {
+            var img = {};
 
-    		return this;
- 		}
+            img = new Image();
+            img.src = this.model.get('images').thumbnail.url;
+            this.$el.html(img);
 
-	});
-
-
+            return this;
+        }
+    });
 });

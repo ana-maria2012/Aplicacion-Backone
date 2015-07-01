@@ -34,6 +34,7 @@ var app = app || {},
 
     Express.storage = {
 
+      //define events
       getAccessToken: function() {
         return localStorage.getItem('accessToken'); // null if doesn't exist
       },
