@@ -9,6 +9,8 @@ Instagram requires that, for API access to user data, you register your
 application. You can do this by creating an account at `http://instagr.am/developer/register/`
 id: client: 2ec477bca09a484fb7af60208859b9a7
 
+is neccesary have access to instagram:  user, password
+
 ## Adding a Client
 
 You need to register a client app in your developer account. You can put pretty
